@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Service category colors-->
+    <array name="category_colors">
+        <item>"#DF1125"</item>
+        <item>"#FB0049"</item>
+        <item>"#FC4E12"</item>
+        <item>"#FD7036"</item>
+        <item>"#E99475"</item>
+        <item>"#FFDA3A"</item>
+        <item>"#80E220"</item>
+        <item>"#77EA7E"</item>
+        <item>"#91CEC2"</item>
+        <item>"#1EA5FC"</item>
+        <item>"#5EBAD9"</item>
+        <item>"#1871AC"</item>
+        <item>"#1E538F"</item>
+        <item>"#3A4565"</item>
+        <item>"#8962F8"</item>
+        <item>"#5F41B2"</item>
+        <item>"#A990DD"</item>
+        <item>"#6273BD"</item>
+        <item>"#A58998"</item>
+        <item>"#B5ACAC"</item>
+        <item>"#578887"</item>
+        <item>"#5B7971"</item>
+        <item>"#A7AB99"</item>
+        <item>"#7A6E49"</item>
+        <item>"#CDA986"</item>
+        <item>"#CC996D"</item>
+        <item>"#B08053"</item>
+        <item>"#A17455"</item>
+        <item>"#A28872"</item>
+        <item>"#715D50"</item>
+        <item>"#CC976D"</item>
+        <item>"#B48053"</item>
+        <item>"#A67455"</item>
+        <item>"#A28882"</item>
+        <item>"#712550"</item>
+    </array>
+
+</resources>

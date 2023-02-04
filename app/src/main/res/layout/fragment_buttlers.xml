@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RequestFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp"
+        android:id="@+id/linearLayout1"
+        android:background="@drawable/search_bg"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_marginHorizontal="8dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:hint="Search"
+            android:textColorHint="#993C3C43"
+
+            style="@style/body_17"
+
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_mic_24"
+            android:layout_marginHorizontal="8dp"
+            android:layout_gravity="center_vertical"
+            />
+        
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16sp"
+        android:layout_marginTop="22dp"
+
+        android:text="Open"
+        android:textColor="#000000"
+        android:gravity="top"
+        android:lineSpacingExtra="-6sp"
+
+        style="@style/headline_title3_bold_20"
+        android:id="@+id/txtOpen"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtOpen"
+        android:layout_marginTop="6dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title=""
+        android:id="@+id/requests"
+        android:icon="@drawable/top_nav2"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/buttlers"
+        android:icon="@drawable/logo_digivalet"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title=""
+        android:id="@+id/zones"
+        android:icon="@drawable/top_nav1"
+        app:showAsAction="always"
+        />
+</menu>

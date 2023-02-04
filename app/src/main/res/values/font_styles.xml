@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name = "headline_largeTitle_bold_34">
+
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">41sp</item>
+        <item name = "android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name = "headline_largeTitle_34">
+
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="font">@font/prompt</item>
+        <item name = "fontWeight">300</item>
+        <item name = "lineHeight">41sp</item>
+
+    </style>
+
+    <style name = "headline_title1_bold_28">
+
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="font">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">34sp</item>
+        <item name = "android:textAlignment">center</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+    <style name = "headline_title1_28">
+
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">300</item>
+        <item name = "lineHeight">34sp</item>
+
+    </style>
+
+    <style name = "headline_title2_bold_22">
+
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">28sp</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+    <style name = "headline_title2_22">
+
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">300</item>
+        <item name = "lineHeight">28sp</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+    
+    <style name="headline_title3_bold_20">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">24sp</item>
+        <item name = "android:textStyle">bold</item>
+
+
+    </style>
+    
+    <style name="body_bold_17">
+
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">24sp</item>
+        <item name = "android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="body_17">
+
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name ="fontFamily">@font/prompt</item>
+        <item name = "fontWeight">300</item>
+        <item name = "lineHeight">24sp</item>
+        <item name="android:textAlignment">center</item>
+
+
+    </style>
+
+    <style name="body_callout_bold_16">
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#121212</item>
+        <item name="android:fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">22sp</item>
+        <item name = "android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name = "small_footnote">
+
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#19DBE6</item>
+        <item name="android:fontFamily">@font/prompt</item>
+        <item name = "fontWeight">400</item>
+        <item name = "lineHeight">19sp</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name = "small_footnote_bold">
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/prompt</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">19sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+    <style name = "sf_pro_bold" parent="Widget.Design.BottomNavigationView">
+
+
+        <item name = "fontFamily">@font/prompt</item>
+        <item name = "android:textSize">10sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#121212</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">11.93sp</item>
+        <item name = "android:textAlignment">center</item>
+        <item name = "android:textStyle">bold</item>
+
+
+
+    </style>
+
+    <style name = "sf_pro" parent="Widget.Design.BottomNavigationView">
+
+        <item name = "fontFamily">@font/prompt</item>
+        <item name = "android:textSize">10sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#767680</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">11.93sp</item>
+        <item name = "android:textAlignment">center</item>
+
+
+
+    </style>
+
+
+    <style name = "bottom_navigation" parent = "Widget.Design.BottomNavigationView">
+
+        <item name = "backgroundTint">#F9F9F9F0</item>
+        <item name="itemIconTint">@drawable/bottom_navigation</item>
+        <item name = "itemTextColor">@drawable/bottom_navigation</item>
+
+    </style>
+
+
+     <!--   4/02/2023   -->
+
+    <style name = "body_baseline" parent="Widget.Design.BottomNavigationView">
+
+        <item name = "fontFamily">@font/urbanist_regular</item>
+        <item name = "android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#80061524</item>
+        <item name = "fontWeight">500</item>
+        <item name = "lineHeight">21sp</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+    <style name = "body_baseline_plus" parent="Widget.Design.BottomNavigationView">
+
+        <item name = "fontFamily">@font/urbanist_regular</item>
+        <item name = "android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#1E4959</item>
+        <item name = "fontWeight">600</item>
+        <item name = "lineHeight">21sp</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+    <style name = "body_baseline_plus_plus" parent="Widget.Design.BottomNavigationView">
+
+        <item name = "fontFamily">@font/urbanist_bold</item>
+        <item name = "android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#061524</item>
+        <item name = "fontWeight">700</item>
+        <item name = "lineHeight">21sp</item>
+        <item name = "android:textStyle">bold</item>
+
+    </style>
+
+
+
+    
+
+
+</resources>
