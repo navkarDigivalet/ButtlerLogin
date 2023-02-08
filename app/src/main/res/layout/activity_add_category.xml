@@ -23,6 +23,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             >
 
             <TextView
@@ -38,7 +39,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/img2"
+                android:id="@+id/txt2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Category"
@@ -52,7 +53,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/img3"
+                android:id="@+id/txt3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
@@ -68,7 +69,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
-    <RelativeLayout
+    <!--<RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/appBar"
@@ -86,13 +87,13 @@
         android:id="@+id/categoryLayout"
         >
 
-       <!-- <TextView
+       &lt;!&ndash; <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
             android:text="category name"
 
-            />-->
+            />&ndash;&gt;
 
         <EditText
             android:layout_width="match_parent"
@@ -119,7 +120,52 @@
 
             />
 
-    </RelativeLayout>
+    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        android:layout_marginTop="12sp"
+        android:layout_marginHorizontal="16sp"
+
+        android:id="@+id/categoryRelativeLayout"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            app:boxStrokeColor="#061524"
+            app:boxStrokeWidthFocused="1dp"
+
+            app:boxCornerRadiusBottomEnd="10sp"
+            app:boxCornerRadiusBottomStart="10sp"
+            app:boxCornerRadiusTopEnd="10sp"
+            app:boxCornerRadiusTopStart="10sp"
+
+            android:hint="Category Name"
+            android:textColorHint="#4D061524"
+
+
+            app:hintTextAppearance="@style/small_footnote"
+            app:hintTextColor="#061524"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/body_baseline_plus"
+                android:includeFontPadding="false"
+                android:gravity="top"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
 
 
     <LinearLayout
@@ -143,16 +189,18 @@
             app:tint="#999999" />
 
         <EditText
+            style="@style/body_baseline"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="7dp"
             android:layout_weight="1"
             android:background="@null"
-            android:layout_marginVertical="7dp"
+            android:maxLines="1"
             android:hint="Search icon..."
-            android:textColor="@color/black"
             android:textAlignment="textStart"
-            style="@style/body_baseline"
-            />
+            android:textColor="@color/black"
+            android:textColorHint="#80061524"
+            tools:ignore="TouchTargetSizeCheck" />
 
 
 
@@ -172,13 +220,19 @@
         android:paddingStart="12sp"
         android:paddingTop="12sp"
         android:paddingEnd="12sp"
-        android:background="@drawable/recycler_bg">
+        android:background="@drawable/recycler_bg"
+        android:orientation="vertical">
+
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/recyclerShape"
         />
+
+
+
 
     </LinearLayout>
 
@@ -190,19 +244,47 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="24sp"
         android:layout_marginHorizontal="16sp"
-        android:paddingStart="12sp"
-        android:paddingTop="12sp"
-        android:paddingEnd="12sp"
+        android:padding="12sp"
         android:background="@drawable/recycler_bg"
-
+        android:orientation="vertical"
         >
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:id="@+id/recyclerColor"
+        android:paddingBottom="12sp"
+
         />
+
+    <!--<com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/dotsIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:dotsColor="@color/black"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="16dp"
+        app:dotsSpacing="4dp"
+        app:dotsWidthFactor="2.5"
+        app:selectedDotColor="@color/teal_200"
+        app:progressMode="true"
+        />-->
+
+       <!--<me.relex.circleindicator.CircleIndicator2
+           android:layout_marginTop="12sp"
+           android:id="@+id/indicator"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           app:ci_drawable="@color/black"
+           app:ci_drawable_unselected="@color/teal_200"
+           android:layout_gravity="center"
+
+           />-->
+
+
+
 
     </LinearLayout>
 

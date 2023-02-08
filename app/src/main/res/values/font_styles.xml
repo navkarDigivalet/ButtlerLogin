@@ -185,7 +185,7 @@
         <item name = "fontFamily">@font/urbanist_regular</item>
         <item name = "android:textSize">17sp</item>
         <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#80061524</item>
+
         <item name = "fontWeight">500</item>
         <item name = "lineHeight">21sp</item>
         <item name = "android:textStyle">bold</item>
